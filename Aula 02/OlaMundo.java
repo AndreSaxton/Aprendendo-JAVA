@@ -1,7 +1,6 @@
-package olamundo;
-
+//import java.io;
 public class OlaMundo{
     public static void main(String[] args) {
-        sistem.Out.println("ola, mundo");
+        System.out.println("Ola, mundo");
     }
 }
