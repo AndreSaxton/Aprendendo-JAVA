@@ -8,9 +8,12 @@ public class Caneta {
     private String cor;
     private boolean tampada;
 
-    public void Caneta(){//metodo construtor
+    public Caneta(String m, String c, float p){//metodo construtor
+        this.modelo = m;
+        this.cor = c;
+        this.setPonta(p);
         this.tampar();
-        this.cor = "Azul";
+        //this.cor = "Azul";
     }
     public String getModelo(){
         return this.modelo;
