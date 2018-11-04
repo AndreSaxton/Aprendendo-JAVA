@@ -2,6 +2,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Aula05",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Aula05",
+            "args": ""
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Aula04",
             "request": "launch",
             "cwd": "${workspaceFolder}",
