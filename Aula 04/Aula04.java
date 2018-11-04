@@ -1,6 +1,5 @@
 import aula04.Caneta;
 
-//Aula 4b inicio
 /**
  * Aula04
  */
