@@ -1,7 +1,7 @@
 /**
  * lutador
  */
-public class lutador {
+public class Lutador {
     private String nome;
     private String naciolidade;
     private int idade;
@@ -12,13 +12,13 @@ public class lutador {
     private int derrotas;
     private int empates;
 
-    public lutador(String nome, String naciolidade, int idade, float altura, float peso, String categoria, int vitorias, int derrotas, int empates) {
+    public Lutador(String nome, String naciolidade, int idade, float altura, float peso, String categoria, int vitorias, int derrotas, int empates) {
         this.nome = nome;
         this.naciolidade = naciolidade;
         this.idade = idade;
         this.altura = altura;
         this.setPeso(peso);
-        this.categoria = categoria;
+        //this.categoria = categoria;
         this.vitorias = vitorias;
         this.derrotas = derrotas;
         this.empates = empates;
